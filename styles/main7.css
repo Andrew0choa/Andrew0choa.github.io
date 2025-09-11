@@ -26,14 +26,14 @@ text-shadow: 2px 2px 2px rgb(128, 0, 0);
 main {
     clear:both;
 }
-h3 {
+main h3 {
     margin-top: 3em;
     font-size: 105%;
 }
 #list {
     line-height: 1.5em;
 }
-footer {
+footer p.copyright {
     text-align: center;
     font-size: 80%;
 }
