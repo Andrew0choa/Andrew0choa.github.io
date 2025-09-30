@@ -1,0 +1,41 @@
+html {
+    background-image: linear-gradient(to left, white 0%, #0000008c 100%);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 90%;
+    background-color: rgba(155, 151, 151, 0.644);
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+    background-image: url("../images/image_processing20200410-19194-19eu13v.png");
+    background-position: right;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+a:focus, a:hover {
+    font-style: italic;
+    color: rgb(252, 24, 24);
+    border: 3px blueviolet;
+    border-style: dotted solid;
+}
+h1 {
+    font-size: 175%;
+    color:rgb(224, 10, 10);
+    text-indent: 30px;
+}
+h2 {
+    font-size: 130%;
+    color: #473d8b00;
+    text-indent: 30px;
+}
+img{
+    float: left;
+    margin-left: 2em;
+}
+.shadow {
+text-shadow: 2px 2px 2px rgb(128, 0, 0);
+}
