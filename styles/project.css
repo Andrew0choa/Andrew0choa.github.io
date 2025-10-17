@@ -19,8 +19,7 @@ body {
 a:focus, a:hover {
     font-style: italic;
     color: rgb(252, 24, 24);
-    border: 3px blueviolet;
-    border-style: dotted solid;
+    border: 3px dotted blueviolet;
 }
 h1 {
     font-size: 175%;
@@ -66,6 +65,7 @@ aside {
     width: 20%;
     float: right;
     background-color: rgba(155, 151, 151, 0.644);
+    padding: 1em;
 }
 footer {
     clear: both;
