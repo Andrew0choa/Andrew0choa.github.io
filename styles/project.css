@@ -76,5 +76,14 @@ footer p.copyright {
     font-size: 80%;
 }
 p.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(155, 151, 151, 0.644);
+    border: 1px solid black;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    font-style: italic;
 width: auto;
 }
