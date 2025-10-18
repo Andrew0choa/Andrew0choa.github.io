@@ -67,16 +67,6 @@ aside {
     background-color: rgba(155, 151, 151, 0.644);
     padding: 1em;
 }
-aside::before {
-    content: "";
-    display: block;
-    width: 100vw;
-    height: 2px;
-    background-color: maroon;
-    position: relative;
-    left: calc(-50vw + 50%);
-    margin-bottom: 0.5em;
-}
 footer {
     clear: both;
     border-top:  2px solid red;
