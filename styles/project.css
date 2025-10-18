@@ -61,11 +61,6 @@ font-weight: bold;
 font-style: italic;
 color: blueviolet;
 }
-hr{
-    border: none;
-    border-top: 2px solid blueviolet;
-    margin: 1em 0;
-}
 aside {
     width: 20%;
     float: right;
