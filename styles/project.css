@@ -66,6 +66,7 @@ aside {
     float: right;
     background-color: rgba(155, 151, 151, 0.644);
     padding: 1em;
+    border-top: 2px solid red;
 }
 footer {
     clear: both;
