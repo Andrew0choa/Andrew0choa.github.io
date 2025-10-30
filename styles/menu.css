@@ -4,53 +4,79 @@ body {
   line-height: 1.6;
 }
 
-nav {
-  background-color: #333;
-}
-
-nav ul.menu {
-  list-style-type: none;
+#nav_menu ul {
+  list-style: none;
+  position: relative;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
 }
 
-nav ul.menu li {
-  margin: 0;
+#nav_menu ul li {
+  float: left;
+  position: relative;
 }
 
-nav ul.menu li a {
-  display: block;
-  color: white;
+#nav_menu ul li a {
   text-align: center;
-  padding: 14px 20px;
+  display: block;
+  width: 180px;
+  padding: 1em 0;
   text-decoration: none;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
 }
 
-nav ul.menu li a:hover {
-  background-color: #111;
+#nav_menu ul li a:hover,
+#nav_menu ul li a:focus {
+  background-color: #555;
 }
+
+#nav_menu ul li a.current {
+  color: yellow;
+}
+
+#nav_menu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#nav_menu ul ul li {
+  float: none;
+  position: relative;
+}
+
+#nav_menu ul li:hover > ul {
+  display: block;
+}
+
+#nav_menu > ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 
 aside {
-  float: left;
-  width: 20%;
+  width: 100%;
   background-color: #f4f4f4;
   padding: 15px;
   box-sizing: border-box;
 }
 
 article {
-  margin-left: 22%;
-  padding: 15px;
+  width: 100%;
+  padding: 20px;
   box-sizing: border-box;
 }
 
 aside ol {
   list-style-type: upper-roman;
 }
-
 aside ul {
   list-style-type: square;
 }
@@ -58,7 +84,6 @@ aside ul {
 h1 {
   color: #333;
 }
-
 h2 {
   color: #555;
   border-bottom: 1px solid #ccc;
