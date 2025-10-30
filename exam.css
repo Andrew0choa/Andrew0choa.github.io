@@ -12,10 +12,11 @@ body {
     position: relative;
     min-height: 98vh;
     background-image: url("images/SHSU_block_logo.svg.png");
-    background-position: right top;
+    background-position: right center;
     background-repeat: repeat-y;
     background-attachment: fixed;
-    background-size: 320px auto;
+    background-size: 400px auto;
+    overflow: visible;
 }
 
 nav {
