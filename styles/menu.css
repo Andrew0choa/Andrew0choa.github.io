@@ -7,18 +7,18 @@ body {
 
 #top_menu {
   background-color: #003366; 
-  border-bottom: 3px solid #cccccc;
 }
 
 #top_menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 #top_menu ul li {
-  float: left;
+  margin: 0;
 }
 
 #top_menu ul li a {
@@ -26,24 +26,18 @@ body {
   color: white;
   font-weight: bold;
   text-align: center;
-  padding: 14px 25px;
+  padding: 16px 30px;
   text-decoration: none;
 }
 
 #top_menu ul li a:hover,
 #top_menu ul li a:focus {
-  background-color: #0059b3; 
+  background-color: #004080; /
 }
 
 #top_menu ul li a.current {
   background-color: #336699; 
   color: #ffff66; 
-}
-
-#top_menu::after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 article {
