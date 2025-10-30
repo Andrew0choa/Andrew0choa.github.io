@@ -1,11 +1,9 @@
-/* Basic reset */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
 
-/* Navigation Bar */
 nav {
   background-color: #333;
 }
@@ -35,7 +33,6 @@ nav ul.menu li a:hover {
   background-color: #111;
 }
 
-/* Layout for Aside and Article */
 aside {
   float: left;
   width: 20%;
@@ -50,7 +47,6 @@ article {
   box-sizing: border-box;
 }
 
-/* List style requirements */
 aside ol {
   list-style-type: upper-roman;
 }
@@ -59,7 +55,6 @@ aside ul {
   list-style-type: square;
 }
 
-/* Headings */
 h1 {
   color: #333;
 }
