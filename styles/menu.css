@@ -6,8 +6,8 @@ body {
 }
 
 #top_menu {
-  background-color: #003366;
-  border-bottom: 3px solid #999;
+  background-color: #003366; 
+  border-bottom: 3px solid #cccccc;
 }
 
 #top_menu ul {
@@ -32,12 +32,12 @@ body {
 
 #top_menu ul li a:hover,
 #top_menu ul li a:focus {
-  background-color: #336699;
+  background-color: #0059b3; 
 }
 
 #top_menu ul li a.current {
-  background-color: #6699cc;
-  color: #fff200;
+  background-color: #336699; 
+  color: #ffff66; 
 }
 
 #top_menu::after {
