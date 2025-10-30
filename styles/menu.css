@@ -1,0 +1,71 @@
+/* Basic reset */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #333;
+}
+
+nav ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul.menu li {
+  margin: 0;
+}
+
+nav ul.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav ul.menu li a:hover {
+  background-color: #111;
+}
+
+/* Layout for Aside and Article */
+aside {
+  float: left;
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+article {
+  margin-left: 22%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* List style requirements */
+aside ol {
+  list-style-type: upper-roman;
+}
+
+aside ul {
+  list-style-type: square;
+}
+
+/* Headings */
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #555;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
