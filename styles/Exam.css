@@ -1,0 +1,182 @@
+body {
+    width: 95%;
+    margin: 15px auto;
+    background: #fff url('WATERMARK_IMAGE_URL') right repeat-y fixed;
+    font-family: Arial, sans-serif;
+}
+
+.page-border {
+    border: 2px solid #333;
+    margin: 10px auto;
+    background: #fff;
+    position: relative;
+    min-height: 98vh;
+}
+
+nav {
+    width: 100%;
+}
+
+.menu-bar {
+    list-style: none;
+    display: flex;
+    background: #232679;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #232679;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+}
+
+.menu-bar li {
+    flex: 1 1 0;
+    text-align: center;
+    margin: 0;
+    border-right: 1px solid #fff;
+}
+
+.menu-bar li:last-child {
+    border: none;
+}
+
+.menu-bar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 0;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.menu-bar a:hover {
+    background: #2c36ae;
+}
+
+.menu-divider, .content-divider {
+    border: none;
+    border-top: 2px solid #232679;
+    margin: 0 0 20px 0;
+}
+
+aside {
+    width: 220px;
+    padding: 15px 10px;
+    background: #e6e9f7cc;
+    border: 2px solid #3796C9;
+    position: fixed;
+    right: 30px;
+    top: 110px;
+    z-index: 100;
+    box-shadow: 2px 2px 10px #bbb;
+    font-size: 1.1em;
+}
+
+.aside-list {
+    list-style-type: square;
+    padding-left: 18px;
+}
+
+.aside-list li {
+    margin: 0 0 10px 0;
+}
+
+.aside-list a {
+    color: #232679;
+    text-decoration: underline;
+}
+
+main {
+    width: 100%;
+}
+
+article {
+    width: 75%;
+    margin: 0 auto 20px 25px;
+    padding: 10px 28px 5px 18px;
+    column-count: 3;
+    column-gap: 20px;
+    min-height: 50vh;
+    background: rgba(255,255,255,0.85);
+    border: 1.5px solid #348fd7;
+    border-radius: 6px;
+}
+
+article h1 {
+    font-size: 2em;
+    margin-bottom: 0.4em;
+    color: #232679;
+    column-span: all;
+    border-bottom: 1px solid #348fd7;
+    padding-bottom: 0.22em;
+}
+
+article h2 {
+    color: #348fd7;
+    font-size: 1.25em;
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+    column-span: all;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.12em;
+}
+
+.intro-wrap {
+    break-inside: avoid;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.intro-image {
+    float: left;
+    margin: 0 20px 5px 0;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 2px solid #AAA;
+    background: #fff;
+}
+
+.first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    float: left;
+    line-height: 1;
+    padding-right: 5px;
+}
+
+article p {
+    text-align: justify;
+    margin: 0 0 1em 0;
+}
+
+footer {
+    text-align: center;
+    padding: 12px 0 5px 0;
+    border-top: 2px solid #232679;
+    margin-top: 45px;
+    background: #fff;
+}
+
+footer a {
+    color: #348fd7;
+    text-decoration: underline;
+}
+
+article {
+    column-rule: 1.5px solid #348fd7;
+}
+
+@media (max-width: 1150px) {
+    article, aside {
+        width: 98%;
+        margin: 0;
+        column-count: 1;
+    }
+    aside {
+        position: static;
+        width: 98%;
+        margin: 0 auto 15px auto;
+    }
+}
