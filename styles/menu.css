@@ -86,3 +86,17 @@ h2 {
   margin-top: 30px;
   padding-bottom: 3px;
 }
+
+aside a {
+  color: #003366;
+  text-decoration: none;
+}
+
+aside a:hover,
+aside a:focus {
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
