@@ -107,7 +107,7 @@ article {
     border-radius: 8px;
     box-sizing: border-box;
     min-height: 50vh;
-    column-rule: 2px solid #348fd7;
+    column-rule: 3px solid #232679;
 }
 
 article h1 {
