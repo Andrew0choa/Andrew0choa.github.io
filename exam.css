@@ -16,7 +16,6 @@ body {
     background-repeat: repeat-y;
     background-attachment: fixed;
     background-size: 400px auto;
-    overflow: visible;
 }
 
 nav {
@@ -132,19 +131,11 @@ article h2 {
     font-weight: bold;
 }
 
-.intro-wrap {
-    break-inside: avoid;
-    display: flex;
-    align-items: flex-start;
-    gap: 15px;
-    margin-bottom: 12px;
-}
-
 .intro-image {
     float: left;
-    margin: 0 13px 5px 0;
-    width: 67px;
-    height: 67px;
+    margin: 0 15px 10px 0;
+    width: 80px;
+    height: 80px;
     object-fit: cover;
     border: 2px solid #AAA;
     background: #fff;
