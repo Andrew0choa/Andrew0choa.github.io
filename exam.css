@@ -103,7 +103,7 @@ article {
     column-count: 3;
     column-gap: 30px;
     background: rgba(255,255,255,0.93);
-    border: 1.5px solid #348fd7;
+    border: none;
     border-radius: 8px;
     box-sizing: border-box;
     min-height: 50vh;
