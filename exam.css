@@ -101,13 +101,13 @@ article {
     margin: 0 auto 24px 20px;
     padding: 15px 20px 7px 19px;
     column-count: 3;
-    column-gap: 24px;
+    column-gap: 30px;
     background: rgba(255,255,255,0.93);
     border: 1.5px solid #348fd7;
     border-radius: 8px;
     box-sizing: border-box;
     min-height: 50vh;
-    column-rule: 3px solid #232679;
+    column-rule: 2px dashed #232679;
 }
 
 article h1 {
@@ -138,8 +138,8 @@ article p:first-of-type {
 .intro-image {
     float: left;
     margin: 0 15px 10px 0;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border: 2px solid #AAA;
     background: #fff;
