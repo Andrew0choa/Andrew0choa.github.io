@@ -115,7 +115,7 @@ article h1 {
     margin-bottom: 0.35em;
     color: #232679;
     column-span: all;
-    border-bottom: 1.2px solid #348fd7;
+    border-bottom: none;
     padding-bottom: 0.19em;
     font-weight: bold;
 }
