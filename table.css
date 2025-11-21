@@ -1,36 +1,56 @@
 html, body {
-margin: 1em;
-height: 100%;
-font-size: 100%;
+    margin: 1em;
+    height: 100%;
+    font-size: 100%;
 }
 * {
-font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
-/*-----------------------------------------------------------*/
-table.first {
-border-collapse: separate;
-border: 2px solid black;
+
+table.first.mark {
+    border-collapse: separate;
+    border: 2px solid black;
 }
-table.first th, table.first td {
-border: 2px solid blue;
+table.first.mark th, table.first.mark td {
+    border: 2px solid blue;
+    padding: 0.7em;
 }
-table.first tr:nth-child(odd) {
-background-color: lightblue;
+table.first.mark tr:nth-child(odd) {
+    background-color: lightblue;
 }
-/*-----------------------------------------------------------*/
-table.second {
-border-collapse: collapse;
-border: 2px solid purple;
-caption-side: bottom;
+
+table.second.mark {
+    border-collapse: collapse;
+    border: 2px solid purple;
+    caption-side: bottom;
 }
-table.second th {
-background-color: salmon;
+table.second.mark th {
+    background-color: salmon;
 }
-table.second th, table.second td {
-padding: 0.7em;
-vertical-align: middle;
-border: 2px solid purple;
+table.second.mark th, table.second.mark td {
+    padding: 0.7em;
+    vertical-align: middle;
+    border: 2px solid purple;
 }
-table.second thead tr:first-child{
-border-bottom: 2px solid purple;
+table.second.mark thead tr:first-child {
+    border-bottom: 2px solid purple;
+}
+
+table:not(.first):not(.second) th {
+    background: #eee;
+    font-weight: bold;
+}
+table:not(.first):not(.second) td {
+    vertical-align: top;
+    padding: 0.7em;
+}
+
+@media (max-width: 425px) {
+    th, td {
+        display: block;
+        padding: 0.4em;
+    }
+    .number {
+        display: none;
+    }
 }
